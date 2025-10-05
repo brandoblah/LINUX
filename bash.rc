@@ -1,0 +1,18 @@
+## FILES
+alias ll='ls -la'
+alias ..='cd ..'
+
+## SYSTEM MAINTENANCE
+alias sysup='sudo dnf update && sudo dnf upgrade -y'
+
+## SYSTEM USAGE
+alias df='df -h'
+alias du='du -h'
+alias free='free -m'
+alias psu='psu aux | grep'
+
+## QUALITY OF LIFE
+alias c='clear'
+alias h='history'
+alias grep='grep --color=auto'
+alias e='exit'
